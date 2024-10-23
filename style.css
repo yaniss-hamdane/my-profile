@@ -1,0 +1,128 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: 'Lora', serif;
+    color: #38a169;  
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: center;
+    margin: 10px auto;
+    max-width: 800px;
+    color: #555;
+}
+
+a {
+    color: #064420; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+ul li {
+    display: inline;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 20px;
+    border: 4px solid #064420; 
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section, .header-section, .footer-section {
+    background-color: #fff; 
+    margin: 20px 0;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-section {
+    text-align: center;
+}
+
+.footer-section ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-section ul li {
+    margin: 0 15px;
+}
+
+footer p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+.button-link {
+    display: inline-block;  
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #064420;  
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button-link:hover {
+    background-color: #043516;  
+}
+
+.footer-section ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #064420;  
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    background-color: #043516;  
+}
